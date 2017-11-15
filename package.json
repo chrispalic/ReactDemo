@@ -1,0 +1,30 @@
+{
+  "name": "reactdemo",
+  "version": "1.0.0",
+  "description": "This is for my first shot at the expedite demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Palic",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "browserify": "^14.1.0",
+    "eslint": "^3.17.1",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "flux": "^2.0.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-open": "^2.0.0",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.4",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

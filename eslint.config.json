@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "ecmaFeatures": {
+    "jsx": true //Using JSX for react
+  },
+  "env": {//these are things we are working with
+    "browser": true,
+    "node": true,
+    "jquery": true
+  },
+  "rules": {//These help with react and flux
+    "quotes": 0,
+    "no-trailing-spaces": 0,
+    "eol-last": 0,
+    "no-unused-vars": 0,
+    "no-underscore-dangle": 0,
+    "no-alert": 0,
+    "no-lone-blocks": 0
+  },
+  "globals": {//You have to let it know that jQuery is a global
+    "jQuery": true,
+    "$": true
+  }
+}
