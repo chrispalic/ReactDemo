@@ -10,6 +10,7 @@ var Home = React.createClass({
             <div className="jumbotron">
                 <h1>Expedite Client Site Application</h1>
                 <p>Soon I can start putting the forms, and other cool things here. Then it will be a real app!</p>
+                <p>We should merge this into master!</p>
                 <Link to="about" className="btn btn-primary btn-lg">Learn more</Link>
             </div>
         );
