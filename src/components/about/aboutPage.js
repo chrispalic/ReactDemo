@@ -3,6 +3,22 @@
 var React = require('react');
 
 var About = React.createClass({
+    statics: {
+        willTransitionTo: function(transition, params, query, callback){
+            //this is a good place to do a login check
+            if(!confirm('Are you sure you want to read a page that\'s this boring?')){
+                transition.about();
+            }else{
+                callback();
+            }
+        },
+        willTransitionFrom: function(transition, component){
+            //this is a good place to do a save back
+            if(!confirm('Are you sure you want to leave a page that\'s this exciting?')){
+                transition.about();
+            }
+        }
+    },
     render:function(){
         return(
             <div>
